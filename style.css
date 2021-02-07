@@ -1,0 +1,55 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0px;
+}
+
+h1 {
+  margin: 0px 0px 10px 0px;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 0px 5px;
+  color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 10px;
+}
+
+.app-content {
+  position: relative;
+  margin: 0px 10px;
+}
+
+.app-preview img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.app-preview img:hover {
+  opacity: 80%;
+}
+
+.app-name {
+  margin: 10px 0px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.app-description {
+  width: 310px;
+  text-align: center;
+}
