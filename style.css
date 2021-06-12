@@ -16,7 +16,7 @@ h1 {
 .links a {
   text-decoration: none;
   margin: 0px 5px;
-  color: black;
+  color: blue;
 }
 
 a:visited {
@@ -25,32 +25,51 @@ a:visited {
 
 .content {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px 10px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin: 40px;
 }
 
 .app-content {
   position: relative;
-  margin: 0px 10px;
+  margin: 0px 40px 30px;
+  height: 350px;
+}
+
+.app-preview {
+  height: 190px;
+  position: relative;
 }
 
 .app-preview img {
   width: 300px;
   border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .app-preview img:hover {
   opacity: 80%;
 }
 
+.app-info {
+  width: 300px;
+}
+
 .app-name {
   margin: 10px 0px;
-  font-size: 14pt;
+  font-size: 18pt;
   text-align: center;
 }
 
-.app-description {
-  width: 310px;
+.sub-header {
+  font-size: 12pt;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+.app-description {
+  text-align: center;
+  font-size: 11pt;
 }
